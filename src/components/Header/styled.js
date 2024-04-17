@@ -12,7 +12,6 @@ export const Wrapper = styled.div`
 export const Svg = styled.svg`
   display: inline-block;
   vertical-align: top;
-  transform: translateY(10px);
 `;
 
 export const H1 = styled.h1`

@@ -27,6 +27,5 @@ export const LoggedOut = {
     await expect(loginButton).toBeInTheDocument();
     await userEvent.click(loginButton);
     await expect(args.onLogin).toBeCalled();
-    await expect(args.onLogout).toBeCalled();
   },
 };
